@@ -12,7 +12,7 @@ $(document).ready(function(){
     $.get("http://localhost:3000/send",{to:to,subject:subject,text:text},function(data){
       if(data=="sent")
       {
-        $("#message").empty().html("<p>Email is been sent at "+to+" . Please check inbox !</p>");
+        $("#message").empty().html("<p>Email is been sent at " + to + " . Please check inbox !</p>");
       }
     });
   });
