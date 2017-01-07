@@ -1,7 +1,7 @@
 const express = require('express');
 const nodemailer = require("nodemailer");
 const router = express.Router();
-const CONFIG = require('../config');
+// const CONFIG = require('../config');
 
 /*
   Here we are configuring our SMTP Server details.
@@ -11,8 +11,8 @@ const smtpTransport = nodemailer.createTransport("SMTP",{
     host: 'smtp.gmail.com',
     port: 587,
     auth: {
-        user: CONFIG.user,
-        pass: CONFIG.pass,
+        user: process.env.email,
+        pass: process.env.pass,
     },
     tls: {rejectUnauthorized: false},
     debug: true,
@@ -20,6 +20,9 @@ const smtpTransport = nodemailer.createTransport("SMTP",{
 
 router.route('/')
   .get(function(req,res){
+    console.log(process.env.email)
+    console.log(process.env)
+    console.log(process.env.pass)
     let mailOptions={
       to : req.query.to,
       subject : req.query.subject,

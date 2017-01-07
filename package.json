@@ -7,8 +7,8 @@
   "description": "Schedule apologies to be sent automatically once a month, once a week, or every day! Never be sorry you weren't sorry again!",
   "main": "server.js",
   "repository": {
-      "type": "git",
-      "url": "https://github.com/JoeKarlsson/app-all-o-gizer"
+    "type": "git",
+    "url": "https://github.com/JoeKarlsson/app-all-o-gizer"
   },
   "author": "Joe Karlsson",
   "license": "MIT",
@@ -29,10 +29,11 @@
     "Stupid"
   ],
   "scripts": {
-      "start": "node server.js",
-    },
+    "start": "node server.js"
+  },
   "dependencies": {
-    "nodemailer": "0.7.1",
-    "express": "latest"
+    "express": "latest",
+    "node-cron": "^1.1.2",
+    "nodemailer": "0.7.1"
   }
 }
