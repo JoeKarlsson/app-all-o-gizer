@@ -1,0 +1,17 @@
+{
+  "name": "email-node",
+  "version": "1.0.0",
+  "engines": {
+    "node": "6.2.0"
+  },
+  "description": "A node based interactive site to analyze a movie script in order to tell if it passes the Bechdel Test.",
+    "main": "server/server.js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/JoeKarlsson/bechdel-test"
+    },
+  "dependencies": {
+    "nodemailer": "0.7.1",
+    "express": "latest"
+  }
+}
