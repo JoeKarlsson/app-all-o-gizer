@@ -19,7 +19,7 @@ const messages = [
     body: 'I know you died a couple of days ago, and I wish I could have made it, but there was this new show on Netflix, and I wanted to be a part of the cultural conversation about it, so I had to binged it. Anyways, thanks for everything, I\'ll see you in hell. '
   }, {
     subject: 'Sorry for tricking your kids into trafficing drugs for me',
-    body: 'I didn\'t think it was a big deal or whatever, but I can totally understand why you would be pissed at me for accidently tricking your kids into trafficing those drugs for me and my boys. I thought for sure that they wouldn\'t be caught, because, you know, they are kids and all. But, biy was I wrong. Anyways, thanks for being such a great pal. Love you. Bye now.'
+    body: 'I didn\'t think it was a big deal or whatever, but I can totally understand why you would be pissed at me for accidently tricking your kids into trafficing those drugs for me and my boys. I thought for sure that they wouldn\'t be caught, because, you know, they are kids and all. But, boy was I wrong. Anyways, thanks for being such a great pal. Love you. Bye now.'
   }, {
     subject: 'Sorry I pooped the bed',
     body: 'It was a total accident and I will totally buy you a new bed.'

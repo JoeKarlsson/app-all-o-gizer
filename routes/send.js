@@ -27,7 +27,7 @@ router.route('/')
     let mailOptions={
       to : req.query.to,
       subject : messages[0].subject,
-      text : randomMessage(messages),
+      text : randomMessage(messages).body,
     }
     console.log(mailOptions);
     smtpTransport.sendMail(mailOptions, function(error, response){
