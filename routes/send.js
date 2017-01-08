@@ -24,10 +24,13 @@ const randomMessage = (messagesArr) => {
 
 router.route('/')
   .get(function(req,res){
+
+    let randMsg = randomMessage(messages);
+
     let mailOptions={
       to : req.query.to,
-      subject : messages[0].subject,
-      text : randomMessage(messages).body,
+      subject : randMsg.subject,
+      text : randMsg.body,
     }
     console.log(mailOptions);
     smtpTransport.sendMail(mailOptions, function(error, response){

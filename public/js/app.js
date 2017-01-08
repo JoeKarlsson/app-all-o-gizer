@@ -8,12 +8,12 @@ $(document).ready(function(){
     to=$("#to").val();
     // subject=$("#subject").val();
     // text=$("#content").val();
-    $("#message").text("Sending E-mail...Please wait");
+    $("#message").text("Sending a shitty random apology to the person you wronged...Please wait...");
 
     $.get("/send",{to:to,subject:subject,text:text},function(data){
       if(data=="sent")
       {
-        $("#message").empty().html("<p>Email is been sent at " + to + " . Please check inbox !</p>");
+        $("#message").empty().html("<p>Your shitty apology has been sent to " + to + " . Please check inbox!</p>");
       }
     });
 
