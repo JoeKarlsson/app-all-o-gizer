@@ -1,7 +1,7 @@
 const express = require('express');
 const nodemailer = require("nodemailer");
+const messages = require('../messages');
 const router = express.Router();
-// const CONFIG = require('../config');
 
 /*
   Here we are configuring our SMTP Server details.
@@ -18,15 +18,16 @@ const smtpTransport = nodemailer.createTransport("SMTP",{
     debug: true,
 });
 
+const randomMessage = (messagesArr) => {
+  return messagesArr[Math.floor(Math.random()*messagesArr.length)];
+}
+
 router.route('/')
   .get(function(req,res){
-    console.log(process.env.email)
-    console.log(process.env)
-    console.log(process.env.pass)
     let mailOptions={
       to : req.query.to,
-      subject : req.query.subject,
-      text : req.query.text,
+      subject : messages[0].subject,
+      text : randomMessage(messages),
     }
     console.log(mailOptions);
     smtpTransport.sendMail(mailOptions, function(error, response){
