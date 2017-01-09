@@ -6,8 +6,9 @@ Sometimes we hurt people, sometimes people are hurt by us and we don't know it. 
 ## Getting Started
 1. Fork and clone
 1. Run `npm install`
-1. Change `config_example.js` to `config.js`
-1. Add your gmail email address and password to `config.js`
+1. Add your gmail email address and password to enviornmental variables. IN your terminal run:
+  1. `export email=YOUR_EMAIL_ADDRESS@gmail.com` and
+  1. `export pass=YOUR_EMAIL_PASWORD`
 1. Run `npm start`
 1. Open your browser to `http://localhost:3000/`
 1. Never be sorry you weren't sorry again!
