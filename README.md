@@ -1,7 +1,11 @@
 # App-All-O-Gizer
 ### (ə-pŏlˈə-jīz ə(r))
 
-Sometimes we hurt people, sometimes people are hurt by us and we don't know it. With this app, you don't have to worry about forgetting to say your sorry to the ones you love. Schedule apologies to be sent automatically once a month, once a week, or every day! Never be sorry you weren't sorry again!
+## Never be sorry you weren't sorry again!
+
+Sometimes we hurt people, sometimes people are hurt by us and we don't know it. With this app, you don't have to worry about forgetting to say your sorry to the ones you love. Schedule apologies to be sent automatically once a month, once a week, or every day!
+
+### Never be sorry you weren't sorry again!
 
 ### You can see App-All-O-Gizer in action [here](http://www.appallogizer.com/)
 
