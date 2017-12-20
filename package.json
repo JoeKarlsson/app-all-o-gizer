@@ -34,6 +34,6 @@
   "dependencies": {
     "express": "latest",
     "node-cron": "^1.1.2",
-    "nodemailer": "0.7.1"
+    "nodemailer": "4.4.1"
   }
 }
