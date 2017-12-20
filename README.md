@@ -1,6 +1,8 @@
 # App-All-O-Gizer
 ### (ə-pŏlˈə-jīz ə(r))
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/JoeKarlsson/app-all-o-gizer.svg)](https://greenkeeper.io/)
+
 ## Never be sorry you weren't sorry again!
 
 Sometimes we hurt people, sometimes people are hurt by us and we don't know it. With this app, you don't have to worry about forgetting to say your sorry to the ones you love. Schedule apologies to be sent automatically once a month, once a week, or every day!
